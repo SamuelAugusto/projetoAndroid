@@ -4,15 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".telaRaca">
-
+    tools:context=".activityTelaDescricaoPoodle">
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="430dp"
-        android:layout_height="282dp"
-        app:srcCompat="@drawable/inicio"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="130dp" />
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        app:srcCompat="@drawable/poodle"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="229dp" />
 </LinearLayout>

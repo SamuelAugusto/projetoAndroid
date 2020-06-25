@@ -11,5 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="273dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/pastor_alemao" />
+        app:srcCompat="@drawable/pastor_alemao"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-20dp" />
 </LinearLayout>

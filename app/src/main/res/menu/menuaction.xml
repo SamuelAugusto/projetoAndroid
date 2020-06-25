@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/paginaInicial"
+        android:icon="@drawable/tela_inicial"
+        app:showAsAction="never"
+        android:title="Página Inicial" />
+
+    <item
+        android:id="@+id/labrador"
+        android:icon="@drawable/icone_dog"
+        app:showAsAction="never"
+        android:title="Labrador" />
+
+    <item
+        android:id="@+id/pastoralemao"
+        android:icon="@drawable/icone_dog"
+        app:showAsAction="never"
+        android:title="Pastor Alemão" />
+
+    <item
+        android:id="@+id/buldogue"
+        android:icon="@drawable/icone_dog"
+        app:showAsAction="never"
+        android:title="Buldogue" />
+
+    <item
+        android:id="@+id/poodle"
+        android:icon="@drawable/icone_dog"
+        app:showAsAction="never"
+        android:title="Poodle" />
+
+    <item
+        android:id="@+id/chihuahua"
+        android:icon="@drawable/icone_dog"
+        app:showAsAction="never"
+        android:title="Chihuahua" />
+
+    <item android:id="@+id/sair"
+        android:icon="@drawable/dog"
+        app:showAsAction="never"
+        android:title="Sair" />
+</menu>

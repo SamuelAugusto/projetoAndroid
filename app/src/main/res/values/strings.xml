@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">projetoAndroid</string>
+    <string name="app_name">Curiosidades sobre cachorros </string>
+    <string name="nav_header_title">Curiosidades sobre cachorros</string>
     <string name="btnTela2">ENTRAR</string>
+    <string name="paginainicial">Página Inicial</string>
+    <string name="labrador">Labrador</string>
+    <string name="pastoralemao">Pastor Alemao</string>
+    <string name="buldogue">Buldogue</string>
+    <string name="poodle">Poodle</string>
+    <string name="chihuahua">Chihuahua</string>
 </resources>

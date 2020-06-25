@@ -7,18 +7,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-public class telaRaca extends AppCompatActivity {
+public class activityTelaDescricaoBuldogue extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_raca);
-
+        setContentView(R.layout.activity_tela_descricao_buldogue);
     }
 
     @Override
@@ -34,38 +29,38 @@ public class telaRaca extends AppCompatActivity {
         switch (item.getItemId())
         {
             case R.id.paginaInicial:
-                Intent pagInicial = new Intent(telaRaca.this, telaRaca.class);
+                Intent pagInicial = new Intent(activityTelaDescricaoBuldogue.this, telaRaca.class);
                 startActivity(pagInicial);
                 break;
 
             case R.id.labrador:
-                Intent labrador = new Intent(telaRaca.this, telaDescricaoLabrador.class);
+                Intent labrador = new Intent(activityTelaDescricaoBuldogue.this, telaDescricaoLabrador.class);
                 startActivity(labrador);
                 break;
 
             case R.id.pastoralemao:
-                Intent pastoralemao = new Intent(telaRaca.this, telaDescricaoPastorAlemao.class);
+                Intent pastoralemao = new Intent(activityTelaDescricaoBuldogue.this, telaDescricaoPastorAlemao.class);
                 startActivity(pastoralemao);
                 break;
 
             case R.id.buldogue:
-                Intent buldogue = new Intent(telaRaca.this, activityTelaDescricaoBuldogue.class);
+                Intent buldogue = new Intent(activityTelaDescricaoBuldogue.this, activityTelaDescricaoBuldogue.class);
                 startActivity(buldogue);
                 break;
 
             case R.id.poodle:
-                Intent poodle = new Intent(telaRaca.this, activityTelaDescricaoPoodle.class);
+                Intent poodle = new Intent(activityTelaDescricaoBuldogue.this, activityTelaDescricaoPoodle.class);
                 startActivity(poodle);
                 break;
 
             case R.id.chihuahua:
-                Intent chihuahua = new Intent(telaRaca.this, telaDescricaoChihuahua.class);
+                Intent chihuahua = new Intent(activityTelaDescricaoBuldogue.this, telaDescricaoChihuahua.class);
                 startActivity(chihuahua);
                 break;
 
-                //case R.id.sair:
-                //Intent tela = new Intent(MainActivity.this, TelaMenu.class);
-                //startActivity(tela);
+            //case R.id.sair:
+            //Intent tela = new Intent(MainActivity.this, TelaMenu.class);
+            //startActivity(tela);
         }
         return (super.onOptionsItemSelected(item));
     }
