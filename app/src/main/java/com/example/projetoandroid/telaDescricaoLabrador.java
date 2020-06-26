@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class telaDescricaoLabrador extends AppCompatActivity {
 
@@ -14,6 +18,42 @@ public class telaDescricaoLabrador extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_descricao_labrador);
+
+        ImageView imgLabrador_femea = (ImageView) findViewById(R.id.imgLabrador_femea);
+        imgLabrador_femea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(telaDescricaoLabrador.this, telaLabradorFemea.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView txtLabador_femea = (TextView) findViewById(R.id.txtLabrador_femea);
+        txtLabador_femea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(telaDescricaoLabrador.this, telaLabradorFemea.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView imgLabrador_macho = (ImageView) findViewById(R.id.imgLabrador_macho);
+        imgLabrador_macho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(telaDescricaoLabrador.this, telaLabradorMacho.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView txtLabrador_macho = (TextView) findViewById(R.id.txtLabrador_macho);
+        txtLabrador_macho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(telaDescricaoLabrador.this, telaLabradorMacho.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
