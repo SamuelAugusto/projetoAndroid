@@ -11,8 +11,10 @@
         android:layout_width="412dp"
         android:layout_height="230dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/labrador"
-        tools:layout_editor_absoluteX="-1dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/labrador" />
 
     <TextView
         android:id="@+id/raca1"
@@ -21,6 +23,7 @@
         android:layout_marginTop="242dp"
         android:text="Raça: Labrador"
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
@@ -31,6 +34,7 @@
         android:layout_marginTop="268dp"
         android:text="Cor: Amarelo, preto, e chocolate"
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
@@ -41,6 +45,7 @@
         android:layout_marginTop="296dp"
         android:text="Pelagem: Curta"
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
@@ -51,6 +56,7 @@
         android:layout_marginTop="324dp"
         android:text="Altura da fêmea: 55-60 cm"
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
@@ -61,6 +67,7 @@
         android:layout_marginTop="350dp"
         android:text="Altura do macho: 57-62 cm"
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
@@ -71,6 +78,7 @@
         android:layout_marginTop="376dp"
         android:text="Peso da fêmea: 25-38 kg"
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
@@ -81,6 +89,7 @@
         android:layout_marginTop="404dp"
         android:text="Peso do macho: 27-40 kg"
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
@@ -91,6 +100,7 @@
         android:layout_marginTop="429dp"
         android:text="Habilidades: Quando treinados, para atuarem como guias para cegos, assistentes e na prática da caça."
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="17dp" />
 
@@ -98,29 +108,32 @@
         android:id="@+id/tempo_vida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="472dp"
+        android:layout_marginTop="500dp"
         android:text="Tempo de vida: 12-13 anos"
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="17dp" />
-
-    <TextView
-        android:id="@+id/pais_origem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
-        android:text="Pais de Origem: Canadá e Reino Unido"
-        android:textColor="@color/design_default_color_on_secondary"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/curiosidades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="528dp"
+        android:layout_marginTop="556dp"
         android:text="Curiosidades: Possuem dupla camada de pelos: uma externa que é dura e comprida e, abaixo desta, uma pelagem fina e macia."
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/pais_origem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="528dp"
+        android:text="Pais de Origem: Canadá e Reino Unido"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
