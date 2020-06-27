@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class activityTelaDescricaoPoodle extends AppCompatActivity {
 
@@ -14,6 +17,42 @@ public class activityTelaDescricaoPoodle extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_descricao_poodle);
+
+        ImageView imPoodleFemea = (ImageView) findViewById(R.id.imgPoodle_femea);
+        imPoodleFemea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activityTelaDescricaoPoodle.this, telaPoodleFemea.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView imPoodleMacho = (ImageView) findViewById(R.id.imgPoodle_macho);
+        imPoodleMacho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activityTelaDescricaoPoodle.this, telaPoodleMacho.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView txtLabador_femea = (TextView) findViewById(R.id.txtPoodle_femea);
+        txtLabador_femea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activityTelaDescricaoPoodle.this, telaPoodleFemea.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView txtLabador_macho = (TextView) findViewById(R.id.txtPoodle_macho);
+        txtLabador_macho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activityTelaDescricaoPoodle.this, telaPoodleMacho.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

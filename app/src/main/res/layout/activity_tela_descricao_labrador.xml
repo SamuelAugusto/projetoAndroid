@@ -23,9 +23,11 @@
         android:layout_width="364dp"
         android:layout_height="251dp"
         android:layout_marginTop="358dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/labrador_macho"
-        tools:layout_editor_absoluteX="23dp" />
+        app:srcCompat="@drawable/labrador_macho" />
 
     <TextView
         android:id="@+id/txtLabrador_femea"

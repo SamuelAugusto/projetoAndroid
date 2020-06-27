@@ -6,11 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".telaDescricaoChihuahua">
 
+    <ImageView
+        android:id="@+id/imgChihuahua_femea"
+        android:layout_width="298dp"
+        android:layout_height="244dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chihuahua_femea" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgChihuahua_macho"
+        android:layout_width="364dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="358dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chihuahua_macho" />
+
+    <TextView
+        android:id="@+id/txtChihuahua_femea"
         android:layout_width="wrap_content"
-        android:layout_height="232dp"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/chihuahua" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Fêmea"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtChihuahua_macho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="616dp"
+        android:text="Macho"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

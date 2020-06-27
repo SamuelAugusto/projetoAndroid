@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class activityTelaDescricaoBuldogue extends AppCompatActivity {
 
@@ -14,6 +17,42 @@ public class activityTelaDescricaoBuldogue extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_descricao_buldogue);
+
+        ImageView imgBuldogueFemea = (ImageView) findViewById(R.id.imgBuldogue_femea);
+        imgBuldogueFemea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activityTelaDescricaoBuldogue.this, telaBuldogueFemea.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView imgBuldogueMacho = (ImageView) findViewById(R.id.imgBuldogue_macho);
+        imgBuldogueMacho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activityTelaDescricaoBuldogue.this, telaBuldogueMacho.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView txtBuldogueFemea = (TextView) findViewById(R.id.txtBuldogue_femea);
+        txtBuldogueFemea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activityTelaDescricaoBuldogue.this, telaBuldogueFemea.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView txtBuldogueMacho = (TextView) findViewById(R.id.txtBuldogue_macho);
+        txtBuldogueMacho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activityTelaDescricaoBuldogue.this, telaBuldogueMacho.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

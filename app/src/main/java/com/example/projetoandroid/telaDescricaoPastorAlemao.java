@@ -18,8 +18,8 @@ public class telaDescricaoPastorAlemao extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_descricao_pastor_alemao);
 
-        ImageView imgPastorAlemao_femea = (ImageView) findViewById(R.id.imgPastorAlemao_femea);
-        imgPastorAlemao_femea.setOnClickListener(new View.OnClickListener() {
+        ImageView imgPastorAlemaoFemea = (ImageView) findViewById(R.id.imgPastorAlemao_femea);
+        imgPastorAlemaoFemea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(telaDescricaoPastorAlemao.this, telaPastoralemaoFemea.class);
@@ -27,17 +27,17 @@ public class telaDescricaoPastorAlemao extends AppCompatActivity {
             }
         });
 
-        TextView txtPastorAlemao_femea = (TextView) findViewById(R.id.txtLabrador_femea);
-        txtPastorAlemao_femea.setOnClickListener(new View.OnClickListener() {
+        ImageView imgPastorAlemaoMacho = (ImageView) findViewById(R.id.imgPastorAlemao_macho);
+        imgPastorAlemaoMacho.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(telaDescricaoPastorAlemao.this, telaLabradorFemea.class);
+                Intent intent = new Intent(telaDescricaoPastorAlemao.this, telaPastoralemaoMacho.class);
                 startActivity(intent);
             }
         });
 
-        ImageView imgPastorAlemao_macho = (ImageView) findViewById(R.id.imgPastorAlemao_macho);
-        imgPastorAlemao_macho.setOnClickListener(new View.OnClickListener() {
+        TextView txtPastorAlemaoFemea = (TextView) findViewById(R.id.txtPastorAlemao_femea);
+        txtPastorAlemaoFemea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(telaDescricaoPastorAlemao.this, telaPastoralemaoFemea.class);
@@ -45,14 +45,15 @@ public class telaDescricaoPastorAlemao extends AppCompatActivity {
             }
         });
 
-        TextView txtPastorAlemao_macho = (TextView) findViewById(R.id.txtLabrador_macho);
-        txtPastorAlemao_macho.setOnClickListener(new View.OnClickListener() {
+        TextView txtPastorAlemaoMacho = (TextView) findViewById(R.id.txtPastorAlemao_macho);
+        txtPastorAlemaoMacho.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(telaDescricaoPastorAlemao.this, telaLabradorFemea.class);
+                Intent intent = new Intent(telaDescricaoPastorAlemao.this, telaPastoralemaoMacho.class);
                 startActivity(intent);
             }
         });
+
     }
 
     @Override

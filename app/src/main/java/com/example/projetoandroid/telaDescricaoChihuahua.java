@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class telaDescricaoChihuahua extends AppCompatActivity {
 
@@ -14,6 +17,43 @@ public class telaDescricaoChihuahua extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_descricao_chihuahua);
+
+        ImageView imgChihuahuaFemea = (ImageView) findViewById(R.id.imgChihuahua_femea);
+        imgChihuahuaFemea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(telaDescricaoChihuahua.this, telaChihuahuaFemea.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView imgChihuahuaMacho = (ImageView) findViewById(R.id.imgChihuahua_macho);
+        imgChihuahuaMacho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(telaDescricaoChihuahua.this, telaChihuahuaMacho.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView txtChihuahuaFemea = (TextView) findViewById(R.id.txtChihuahua_femea);
+        txtChihuahuaFemea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(telaDescricaoChihuahua.this, telaChihuahuaFemea.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView txtChihuahuaMacho = (TextView) findViewById(R.id.txtChihuahua_macho);
+        txtChihuahuaMacho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(telaDescricaoChihuahua.this, telaChihuahuaMacho.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override

@@ -3,6 +3,7 @@ package com.example.projetoandroid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -18,6 +19,53 @@ public class telaRaca extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_raca);
+
+        ImageView noticia1 = (ImageView) findViewById(R.id.noticia1);
+
+        noticia1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://exame.com/estilo-de-vida/cao-de-20-anos-e-o-golden-retriever-mais-velho-da-historia/")));
+            }
+        });
+
+        ImageView noticia2 = (ImageView) findViewById(R.id.noticia2);
+
+        noticia2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://exame.com/ciencia/caes-e-gatos-devem-praticar-distanciamento-social/")));
+            }
+        });
+
+        ImageView noticia3 = (ImageView) findViewById(R.id.noticia3);
+
+        noticia3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://exame.com/ciencia/virus-zika-pode-combater-tumores-no-sistema-nervoso-de-cachorros/")));
+            }
+        });
+
+        ImageView noticia4 = (ImageView) findViewById(R.id.noticia4);
+
+        noticia4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://exame.com/mundo/feira-com-carne-de-caes-abre-na-china-e-ativistas-pedem-que-seja-ultima/")));
+            }
+        });
+
+        ImageView noticia5 = (ImageView) findViewById(R.id.noticia5);
+
+        noticia5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://exame.com/ciencia/cachorros-e-gatos-podem-pegar-coronavirus/")));
+            }
+        });
+
+
 
     }
 
@@ -63,9 +111,8 @@ public class telaRaca extends AppCompatActivity {
                 startActivity(chihuahua);
                 break;
 
-                //case R.id.sair:
-                //Intent tela = new Intent(MainActivity.this, TelaMenu.class);
-                //startActivity(tela);
+                case R.id.sair:
+                    finish();
         }
         return (super.onOptionsItemSelected(item));
     }
