@@ -107,6 +107,16 @@ public class tela_descricao_jindo extends AppCompatActivity {
                 startActivity(jindo);
                 break;
 
+            case R.id.chowchow:
+                Intent chowchow = new Intent(tela_descricao_jindo.this, telaDescricaoChowchow.class);
+                startActivity(chowchow);
+                break;
+
+            case R.id.samoieda:
+                Intent samoieda = new Intent(tela_descricao_jindo.this, telaDescricaoSamoieda.class);
+                startActivity(samoieda);
+                break;
+
         }
         return (super.onOptionsItemSelected(item));
     }

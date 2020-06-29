@@ -121,6 +121,18 @@ public class telaRaca extends AppCompatActivity {
                 startActivity(jindo);
                 break;
 
+            case R.id.chowchow:
+                Intent chowchow = new Intent(telaRaca.this, telaDescricaoChowchow.class);
+                startActivity(chowchow);
+                break;
+
+            case R.id.samoieda:
+                Intent samoieda = new Intent(telaRaca.this, telaDescricaoSamoieda.class);
+                startActivity(samoieda);
+                break;
+
+
+
         }
         return (super.onOptionsItemSelected(item));
     }

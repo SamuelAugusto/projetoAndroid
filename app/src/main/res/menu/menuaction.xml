@@ -4,8 +4,8 @@
 
     <item
         android:id="@+id/paginaInicial"
-        android:icon="@drawable/tela_inicial"
-        app:showAsAction="never"
+        android:icon="@drawable/home"
+        app:showAsAction="always"
         android:title="Página Inicial" />
 
     <item
@@ -49,6 +49,18 @@
         android:icon="@drawable/icone_dog"
         app:showAsAction="never"
         android:title="Jindo Coreano" />
+
+    <item
+        android:id="@+id/chowchow"
+        android:icon="@drawable/icone_dog"
+        app:showAsAction="never"
+        android:title="ChowChow" />
+
+    <item
+        android:id="@+id/samoieda"
+        android:icon="@drawable/icone_dog"
+        app:showAsAction="never"
+        android:title="Samoieda" />
 
 
 </menu>

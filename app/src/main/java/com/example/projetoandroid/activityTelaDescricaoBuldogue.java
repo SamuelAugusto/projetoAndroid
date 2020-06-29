@@ -107,6 +107,16 @@ public class activityTelaDescricaoBuldogue extends AppCompatActivity {
                 startActivity(jindo);
                 break;
 
+            case R.id.chowchow:
+                Intent chowchow = new Intent(activityTelaDescricaoBuldogue.this, telaDescricaoChowchow.class);
+                startActivity(chowchow);
+                break;
+
+            case R.id.samoieda:
+                Intent samoieda = new Intent(activityTelaDescricaoBuldogue.this, telaDescricaoSamoieda.class);
+                startActivity(samoieda);
+                break;
+
         }
         return (super.onOptionsItemSelected(item));
     }

@@ -106,6 +106,17 @@ public class activityTelaDescricaoPoodle extends AppCompatActivity {
                 Intent jindo = new Intent(activityTelaDescricaoPoodle.this, tela_descricao_jindo.class);
                 startActivity(jindo);
                 break;
+
+            case R.id.chowchow:
+                Intent chowchow = new Intent(activityTelaDescricaoPoodle.this, telaDescricaoChowchow.class);
+                startActivity(chowchow);
+                break;
+
+            case R.id.samoieda:
+                Intent samoieda = new Intent(activityTelaDescricaoPoodle.this, telaDescricaoSamoieda.class);
+                startActivity(samoieda);
+                break;
+
         }
         return (super.onOptionsItemSelected(item));
     }
