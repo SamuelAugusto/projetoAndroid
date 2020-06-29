@@ -12,7 +12,7 @@
         android:id="@+id/labrador"
         android:icon="@drawable/icone_dog"
         app:showAsAction="never"
-        android:title="Labrador" />
+        android:title="Labrador Retriever" />
 
     <item
         android:id="@+id/pastoralemao"
@@ -24,7 +24,7 @@
         android:id="@+id/buldogue"
         android:icon="@drawable/icone_dog"
         app:showAsAction="never"
-        android:title="Buldogue" />
+        android:title="Buldogue Inglês" />
 
     <item
         android:id="@+id/poodle"
@@ -38,8 +38,17 @@
         app:showAsAction="never"
         android:title="Chihuahua" />
 
-    <item android:id="@+id/sair"
-        android:icon="@drawable/dog"
+    <item
+        android:id="@+id/pug"
+        android:icon="@drawable/icone_dog"
         app:showAsAction="never"
-        android:title="Sair" />
+        android:title="Pug" />
+
+    <item
+        android:id="@+id/jindo"
+        android:icon="@drawable/icone_dog"
+        app:showAsAction="never"
+        android:title="Jindo Coreano" />
+
+
 </menu>

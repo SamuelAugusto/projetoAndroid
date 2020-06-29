@@ -8,49 +8,48 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class telaDescricaoLabrador extends AppCompatActivity {
+public class tela_descricao_pug extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_descricao_labrador);
+        setContentView(R.layout.activity_tela_descricao_pug);
 
-        ImageView imgLabrador_femea = (ImageView) findViewById(R.id.imgLabrador_femea);
-        imgLabrador_femea.setOnClickListener(new View.OnClickListener() {
+        ImageView imgPugFemea = (ImageView) findViewById(R.id.imgPug_femea);
+        imgPugFemea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(telaDescricaoLabrador.this, telaLabradorFemea.class);
+                Intent intent = new Intent(tela_descricao_pug.this, telaPugFemea.class);
                 startActivity(intent);
             }
         });
 
-        TextView txtLabador_femea = (TextView) findViewById(R.id.txtLabrador_femea);
-        txtLabador_femea.setOnClickListener(new View.OnClickListener() {
+        ImageView imgPugMacho = (ImageView) findViewById(R.id.imgPug_macho);
+        imgPugMacho.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(telaDescricaoLabrador.this, telaLabradorFemea.class);
+                Intent intent = new Intent(tela_descricao_pug.this, tela_pug_macho.class);
                 startActivity(intent);
             }
         });
 
-        ImageView imgLabrador_macho = (ImageView) findViewById(R.id.imgLabrador_macho);
-        imgLabrador_macho.setOnClickListener(new View.OnClickListener() {
+        TextView txtPugFemea = (TextView) findViewById(R.id.txtPug_femea);
+        txtPugFemea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(telaDescricaoLabrador.this, telaLabradorMacho.class);
+                Intent intent = new Intent(tela_descricao_pug.this, telaPugFemea.class);
                 startActivity(intent);
             }
         });
 
-        TextView txtLabrador_macho = (TextView) findViewById(R.id.txtLabrador_macho);
-        txtLabrador_macho.setOnClickListener(new View.OnClickListener() {
+        TextView txtPugMacho = (TextView) findViewById(R.id.txtPug_macho);
+        txtPugMacho.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(telaDescricaoLabrador.this, telaLabradorMacho.class);
+                Intent intent = new Intent(tela_descricao_pug.this, tela_pug_macho.class);
                 startActivity(intent);
             }
         });
@@ -69,42 +68,42 @@ public class telaDescricaoLabrador extends AppCompatActivity {
         switch (item.getItemId())
         {
             case R.id.paginaInicial:
-                Intent pagInicial = new Intent(telaDescricaoLabrador.this, telaRaca.class);
+                Intent pagInicial = new Intent(tela_descricao_pug.this, telaRaca.class);
                 startActivity(pagInicial);
                 break;
 
             case R.id.labrador:
-                Intent labrador = new Intent(telaDescricaoLabrador.this, telaDescricaoLabrador.class);
+                Intent labrador = new Intent(tela_descricao_pug.this, telaDescricaoLabrador.class);
                 startActivity(labrador);
                 break;
 
             case R.id.pastoralemao:
-                Intent pastoralemao = new Intent(telaDescricaoLabrador.this, telaDescricaoPastorAlemao.class);
+                Intent pastoralemao = new Intent(tela_descricao_pug.this, telaDescricaoPastorAlemao.class);
                 startActivity(pastoralemao);
                 break;
 
             case R.id.buldogue:
-                Intent buldogue = new Intent(telaDescricaoLabrador.this, activityTelaDescricaoBuldogue.class);
+                Intent buldogue = new Intent(tela_descricao_pug.this, activityTelaDescricaoBuldogue.class);
                 startActivity(buldogue);
                 break;
 
             case R.id.poodle:
-                Intent poodle = new Intent(telaDescricaoLabrador.this, activityTelaDescricaoPoodle.class);
+                Intent poodle = new Intent(tela_descricao_pug.this, activityTelaDescricaoPoodle.class);
                 startActivity(poodle);
                 break;
 
             case R.id.chihuahua:
-                Intent chihuahua = new Intent(telaDescricaoLabrador.this, telaDescricaoChihuahua.class);
+                Intent chihuahua = new Intent(tela_descricao_pug.this, telaDescricaoChihuahua.class);
                 startActivity(chihuahua);
                 break;
 
             case R.id.pug:
-                Intent pug = new Intent(telaDescricaoLabrador.this, tela_descricao_pug.class);
+                Intent pug = new Intent(tela_descricao_pug.this, tela_descricao_pug.class);
                 startActivity(pug);
                 break;
 
             case R.id.jindo:
-                Intent jindo = new Intent(telaDescricaoLabrador.this, tela_descricao_jindo.class);
+                Intent jindo = new Intent(tela_descricao_pug.this, tela_descricao_jindo.class);
                 startActivity(jindo);
                 break;
 

@@ -98,9 +98,16 @@ public class telaDescricaoPastorAlemao extends AppCompatActivity {
                 startActivity(chihuahua);
                 break;
 
-            //case R.id.sair:
-            //Intent tela = new Intent(MainActivity.this, TelaMenu.class);
-            //startActivity(tela);
+            case R.id.pug:
+                Intent pug = new Intent(telaDescricaoPastorAlemao.this, tela_descricao_pug.class);
+                startActivity(pug);
+                break;
+
+            case R.id.jindo:
+                Intent jindo = new Intent(telaDescricaoPastorAlemao.this, tela_descricao_jindo.class);
+                startActivity(jindo);
+                break;
+
         }
         return (super.onOptionsItemSelected(item));
     }

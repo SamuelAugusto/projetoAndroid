@@ -4,27 +4,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".telaPoodleMacho">
+    tools:context=".telaJindoMacho">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="397dp"
-        android:layout_height="254dp"
+        android:id="@+id/imageView6"
+        android:layout_width="379dp"
+        android:layout_height="274dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/poodle_macho" />
+        app:srcCompat="@drawable/jindo_macho" />
+
+    <TextView
+        android:id="@+id/raca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="283dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Raça: Jindo Coreano"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <TextView
+        android:id="@+id/cor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="307dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Cor: Branco, Preto, Tigrado, Preto e canela, Fulvo-vermelho, Cinzento"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <TextView
+        android:id="@+id/altura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Altura: 50-55 cm"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <TextView
+        android:id="@+id/pais_origem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Pais de origem: Coreia do Sul"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
 
     <TextView
         android:id="@+id/pelagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="368dp"
+        android:layout_marginTop="352dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Pelagem: Pelo longo"
+        android:text="Pelagem: Dupla Pelagem"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <TextView
+        android:id="@+id/curiosidades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="472dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Curiosidades: Geralmente, não gostam muito de outros animais, especialmente os machos, mas são excepcionalmente leais ao seu companheiro humano. Têm um único tutor e, embora tenham pouco problema em aceitar um novo, nunca esquecerão a ligação com o primeiro que tiveram quando eram filhotes."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
@@ -34,7 +99,7 @@
         android:id="@+id/tempo_vida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="440dp"
+        android:layout_marginTop="424dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:text="Tempo de vida: 12-15 anos"
@@ -47,75 +112,10 @@
         android:id="@+id/peso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="416dp"
+        android:layout_marginTop="400dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Peso: 28-32 kg"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
-        android:id="@+id/pais_origem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="464dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Pais de origem: Alemanha, França"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
-        android:id="@+id/altura"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="392dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Altura: 46-60 cm"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
-        android:id="@+id/curiosidades"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="488dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Curiosidades: Ocupando o segundo lugar no ranking de inteligência canina feita por Stanley Coren, os poodles são animais muito inteligentes, podendo ser adestrados com muita facilidade. Por essa razão, eles participavam de várias apresentações em circos e teatros."
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
-        android:id="@+id/cor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="296dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Cor: Preto, Branco, Creme, Sable, Preto e branco, Abricot, Azul, Cinzento, Prata, Marrom, Vermelho"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
-        android:id="@+id/raca"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="272dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Raça: Poodle"
+        android:text="Peso: 18-23 kg"
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"

@@ -24,7 +24,7 @@
         android:layout_marginTop="283dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Raça: Labrador."
+        android:text="Raça: Labrador Retriever."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"

@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".telaChihuahuaMacho"></activity>
+        <activity android:name=".telaJindoMacho"></activity>
+        <activity android:name=".telaJindoFemea" />
+        <activity android:name=".tela_descricao_jindo" />
+        <activity android:name=".tela_pug_macho" />
+        <activity android:name=".telaPugFemea" />
+        <activity android:name=".tela_descricao_pug" />
+        <activity android:name=".telaChihuahuaMacho" />
         <activity android:name=".telaChihuahuaFemea" />
         <activity android:name=".telaPoodleMacho" />
         <activity android:name=".telaPoodleFemea" />

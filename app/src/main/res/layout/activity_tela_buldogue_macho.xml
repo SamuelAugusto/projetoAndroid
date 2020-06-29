@@ -70,26 +70,13 @@
         tools:layout_editor_absoluteX="28dp" />
 
     <TextView
-        android:id="@+id/habilidades"
+        android:id="@+id/curiosidades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="496dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Habilidades:"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
-        android:id="@+id/curiosidades"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Curiosidades:"
+        android:text="Curiosidades: O Buldogue Inglês é um cachorro famoso que conquista muita gente, principalmente no cinema, no mercado publicitário e no mundo dos famosos. Adam Sandler e Brad Pitt tem cachorros dessa raça e o Buldogue Inglês fez um ponta na animação Rio."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
@@ -128,7 +115,7 @@
         android:layout_marginTop="284dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Raça: Buldogue"
+        android:text="Raça: Buldogue Inglês"
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"

@@ -44,19 +44,6 @@
         tools:layout_editor_absoluteX="28dp" />
 
     <TextView
-        android:id="@+id/habilidades"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="440dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Habilidades:"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
         android:id="@+id/pais_origem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -112,10 +99,10 @@
         android:id="@+id/curiosidades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="464dp"
+        android:layout_marginTop="440dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Curiosidades:"
+        android:text="Curiosidades: Apesar de serem muito amigáveis e dóceis, podem ter sinais territorialistas e possessivos em relação a seus companheiros humanos, principalmente se houver outros cães no ambiente. Sendo assim, é importante que estimule o contato dos Buldogues com outros pets desde cedo."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
@@ -128,7 +115,7 @@
         android:layout_marginTop="228dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Raça: Buldogue"
+        android:text="Raça: Buldogue Inglês"
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"

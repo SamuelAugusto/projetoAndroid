@@ -4,53 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".telaPoodleMacho">
+    tools:context=".telaPugFemea">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="397dp"
-        android:layout_height="254dp"
+        android:id="@+id/imageView5"
+        android:layout_width="389dp"
+        android:layout_height="234dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/poodle_macho" />
+        app:srcCompat="@drawable/pug_femea" />
+
+    <TextView
+        android:id="@+id/raca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="252dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Raça: Pug."
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
 
     <TextView
         android:id="@+id/pelagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="368dp"
+        android:layout_marginTop="300dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Pelagem: Pelo longo"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
-        android:id="@+id/tempo_vida"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="440dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Tempo de vida: 12-15 anos"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
-        android:id="@+id/peso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="416dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Peso: 28-32 kg"
+        android:text="Pelagem: Fino, liso e curto."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
@@ -60,23 +46,23 @@
         android:id="@+id/pais_origem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="464dp"
+        android:layout_marginTop="396dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Pais de origem: Alemanha, França"
+        android:text="Pais de origem: China e Reino Unido."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="28dp" />
 
     <TextView
-        android:id="@+id/altura"
+        android:id="@+id/tempo_vida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="392dp"
+        android:layout_marginTop="372dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Altura: 46-60 cm"
+        android:text="Tempo de vida: 12-15 anos."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
@@ -86,10 +72,36 @@
         android:id="@+id/curiosidades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="488dp"
+        android:layout_marginTop="420dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Curiosidades: Ocupando o segundo lugar no ranking de inteligência canina feita por Stanley Coren, os poodles são animais muito inteligentes, podendo ser adestrados com muita facilidade. Por essa razão, eles participavam de várias apresentações em circos e teatros."
+        android:text="Curiosidades: Essa raça é uma das mais antigas que existe. Foram encontrados indícios de cachorros muito parecidos com o Pug datados de 1700 antes de Cristo! No entanto, não se tem certeza absoluta de sua origem. Existem teorias de que o Pug surgiu do cruzamento de diversas outras raças como o Pequinês ou ainda o Mastiff Francês. O que se tem certeza é de que os Pugs surgiram em algum local da China e eram cachorros pertencentes à realeza."
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <TextView
+        android:id="@+id/altura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="324dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Altura: Até 25 cm."
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <TextView
+        android:id="@+id/peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="348dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Peso: 6,3-8,1 kg."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
@@ -99,23 +111,10 @@
         android:id="@+id/cor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="296dp"
+        android:layout_marginTop="276dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Cor: Preto, Branco, Creme, Sable, Preto e branco, Abricot, Azul, Cinzento, Prata, Marrom, Vermelho"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
-        android:id="@+id/raca"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="272dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Raça: Poodle"
+        android:text="Cor: Prata, abricó, fulvo ou preto."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"

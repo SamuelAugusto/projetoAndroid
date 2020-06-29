@@ -70,19 +70,6 @@
         tools:layout_editor_absoluteX="28dp" />
 
     <TextView
-        android:id="@+id/habilidades"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="460dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Habilidades:"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
-
-    <TextView
         android:id="@+id/peso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,10 +86,10 @@
         android:id="@+id/curiosidades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="484dp"
+        android:layout_marginTop="460dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Curiosidades:"
+        android:text="Curiosidades: O poodle toy é o menor. De tão pequeno, pode caber em uma bolsa. Já o poodle mini é do tamanho “médio” e mais comum. Por fim, o poodle standard ou gigante, é o maior da raça e precisa ser criado em espaços grandes. Além disso, é um animal muito ativo e bastante extrovertido."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"

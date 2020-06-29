@@ -31,26 +31,13 @@
         tools:layout_editor_absoluteX="34dp" />
 
     <TextView
-        android:id="@+id/habilidades"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="432dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Habilidades:"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="34dp" />
-
-    <TextView
         android:id="@+id/raca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="240dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Raça: Labrador"
+        android:text="Raça: Chihuahua"
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
@@ -99,10 +86,10 @@
         android:id="@+id/curiosidades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="456dp"
+        android:layout_marginTop="432dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Curiosidades:"
+        android:text="Curiosidades: Diferente do Pug, o Chihuahua é um cachorro bastante saudável e dificilmente apresenta doenças graves. Além disso, eles possuem uma vida bastante longa, podendo viver até 20 anos. Mas podem ter tendência a apresentar infecções nos olhos e ouvidos, além da obesidade."
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
